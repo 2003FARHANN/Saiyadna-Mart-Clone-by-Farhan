@@ -1,0 +1,15 @@
+{
+  "name": "saiyadna-mart-prototype",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Three-portal, browser-local e-commerce and investor prototype",
+  "scripts": {
+    "dev": "node tools/serve.mjs",
+    "build": "node tools/build.mjs",
+    "test": "node --test tests/*.test.mjs"
+  },
+  "engines": {
+    "node": ">=20"
+  }
+}
